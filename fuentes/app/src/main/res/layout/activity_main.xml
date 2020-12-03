@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <include
+        layout="@layout/toolbar"
+        ></include>
+    <TextView
+        android:text="@string/the_simpsons_cites"
+        android:textSize="@dimen/text_view_text_size"
+        android:textColor="@color/colorVerde"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginStart="@dimen/noventa"
+        android:layout_marginEnd="@dimen/setenta"
+        android:layout_marginBottom="@dimen/margin_botton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/cantidad"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/veinte"
+        android:layout_marginStart="@dimen/ciento_veinte"
+        android:layout_marginEnd="@dimen/ciento_veinte"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"></Spinner>
+    <Button
+        android:id="@+id/solicitarConsejo"
+        android:text="@string/solicitar_consejo"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorIcons"
+        android:textAllCaps="false"
+        android:enabled="true"
+        android:onClick="verView"
+        android:layout_marginTop="@dimen/veinte"
+        android:layout_marginStart="@dimen/ciento_veinte"
+        android:layout_marginEnd="@dimen/ciento_veinte"
+        android:layout_marginBottom="@dimen/margin_botton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+    <ListView
+        android:id="@+id/personajes_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>

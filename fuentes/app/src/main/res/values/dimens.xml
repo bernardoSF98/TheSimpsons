@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_toolbar">10dp</dimen>
+    <dimen name="icono_width_toolbar">40dp</dimen>
+    <dimen name="icono_height_toolbar">40dp</dimen>
+    <dimen name="text_view_text_size">25sp</dimen>
+    <dimen name="margin_top">40sp</dimen>
+    <dimen name="margin_botton">10sp</dimen>
+    <dimen name="list_text_size">30sp</dimen>
+    <dimen name="ciento_veinte">120sp</dimen>
+    <dimen name="veinte">20sp</dimen>
+    <dimen name="noventa">90sp</dimen>
+    <dimen name="setenta">70sp</dimen>
+</resources>
